@@ -1,0 +1,64 @@
+/* Планшеты Tablets 1024px-768px */
+
+@media screen and (max-width: 1024px) {
+	.container{
+	width: 90%;
+	}
+	.firstscreen__menu ul li:nth-child(5){
+		margin-left:0;
+		float: right;
+	}
+	.firstscreen__menu ul li:nth-child(2),
+	.firstscreen__menu ul li:nth-child(3),
+	.firstscreen__menu ul li:nth-child(4){
+		display: none;
+	}
+	.secondscreen__background{
+		width: 100%;
+	}
+	.secondscreen__merit{
+		margin-left: 0px;
+		width: 100%;
+	}
+	.secondscreen__merit_block{
+		display: none;
+	}
+	.skills__item{
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.works__photoitem{
+		float: none;
+		width: 300px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.works__photoitem:last-child{
+		margin: 0 auto;
+	}
+}
+
+/* Мобильные Mobile 768px-0px */
+
+@media screen and (max-width: 768px) {
+	header{
+		height: 100vh;
+	}
+	.firstscreen__title{
+		margin-top: 95px;
+	}
+	.firstscreen__ico{
+		display: none;
+	}
+	.secondscreen__contactico{
+		display: none;
+	}
+	.secondscreen__contactitem{
+		float: none;
+	}
+	.skills__item{
+		width: 200px;
+	}
+}
+
