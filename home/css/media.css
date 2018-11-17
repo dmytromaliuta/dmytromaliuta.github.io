@@ -62,3 +62,12 @@
 	}
 }
 
+@media screen and (max-width: 340px) {
+	.works__photoitem img {
+		width: 100%;
+	}
+	.works__photoitem {
+		display: block;
+		width: 90%;
+	}
+}
