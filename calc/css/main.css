@@ -1,0 +1,121 @@
+body {
+	font-family: 'Sarabun', sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%; 
+}
+html{ 
+	height: 100%; 
+}
+ul, li {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+/** {
+	-moz-transition: all 0.3s ease;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease;
+}*/
+a, a:hover, a:active, a:focus,
+button, input, button:hover, button:active, button:focus,
+input:focus, input:active {
+	text-decoration: none;
+	outline: none;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.upper {
+	text-transform: uppercase;
+}
+.bolder {
+	font-weight: 700;
+}
+.wht{
+	color: white;
+}
+.calculator {
+	width: 295px;
+	height: 469px;
+	margin: 0 auto;
+	border: 2px solid #636363;
+	margin-top: 50px;
+	position: relative;
+}
+.screen {
+	height: 180px;
+	text-align: right;
+}
+.screen__result {
+	font-size: 38px;
+	color: #717171;
+	display: block;
+    padding-top: 38px;
+    padding-right: 17px;
+}
+.numlock {
+	float: left;
+	background: #434343;
+	height: 289px;
+}
+.numlock__button {
+	display: block;
+	width: 72px;
+	height: 72px;
+	text-align: center;
+	float: left;
+	line-height: 72px;
+	font-size: 20px;
+	color: white;
+}
+.buttons {
+	float: left;
+	background: #636363;
+}
+.buttons__item {
+	width: 59px;
+	height: 58px;
+	text-align: center;
+	line-height: 59px;
+	font-size: 17px;
+	color: white;
+}
+.numlock__button:hover,
+.buttons__item:hover {
+	cursor: pointer;
+}
+.buttons__item:first-child {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.rigthline {
+	background: #1de9b6;
+    width: 100%;
+    height: 289px;
+}
+.hiddenblock {
+	background: #1de9b6;
+    width: 243px;
+    height: 289px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+.hiddenblock__item{
+	display: block;
+	float: left;
+	width: 81px;
+	height: 58px;
+	color: #006550;
+	text-align: center;
+	line-height: 58px;
+	cursor: pointer;
+}
+.hidden{
+	display: none;
+}
