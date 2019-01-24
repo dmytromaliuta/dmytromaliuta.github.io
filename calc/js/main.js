@@ -1,16 +1,12 @@
 var toCount = "";
 var screen = document.getElementById('screen__result');
 var screenlive = document.getElementById('screen__result_live');
+
 function insert(symbol){
-	toCount = toCount + symbol;
-	if (toCount[0] === '+') {
-		toCount = "";
-		return 1;
-	}
-	screen.textContent += symbol;
-	count();
-}
-function devideMultiply(symbol){
+	if (toCount[toCount.length - 1] == '/' && (symbol == "/" || symbol == "*" || symbol == "+")) return 5;
+	if (toCount[toCount.length - 1] == '*' && (symbol == "/" || symbol == "*" || symbol == "+")) return 5;
+	if (toCount[toCount.length - 1] == '+' && (symbol == "/" || symbol == "*" || symbol == "+")) return 5;
+	if (toCount[toCount.length - 1] == '-' && (symbol == "/" || symbol == "*" || symbol == "+" || symbol == "-")) return 5;
 	switch (symbol) {
 		case '/':
 			toCount += '/';
@@ -28,7 +24,26 @@ function devideMultiply(symbol){
 			}
 			screen.textContent += '×';
 			break
+		case '-':
+			toCount += '-';
+			screen.textContent += '-';
+			break
+		case '+':
+			toCount += '+';
+			if (toCount[0] === '+') {
+				toCount = "";
+				return 1;
+			}
+			screen.textContent += '+';
+			break
+		default:
+			toCount = toCount + symbol;
+			screen.textContent += symbol;
+			break;
+
 	}
+	
+	count();
 }
 function count(){
 	if (eval(toCount) == 'Infinity' || eval(toCount) == '-Infinity') {
@@ -44,10 +59,12 @@ function count(){
 function equal(){
 	screen.innerHTML = screenlive.textContent;
 	screenlive.textContent = "";
-	toCount = "";
 }
 function clean(){
 	toCount = toCount.slice(0, -1);
+	if (screenlive.textContent == "") {
+		toCount = "";
+	}
 	screen.textContent = screen.textContent.slice(0, -1);
 	count();
 	if (screenlive.textContent == "undefined") {
