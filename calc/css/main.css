@@ -47,7 +47,7 @@ input:focus, input:active {
 	position: relative;
 }
 .screen {
-	height: 180px;
+	height: 181px;
 	text-align: right;
 }
 .screen__result {
@@ -57,10 +57,16 @@ input:focus, input:active {
     padding-top: 38px;
     padding-right: 17px;
 }
+#screen__result_live{
+    font-size: 26px;
+    color: #717171;
+    display: block;
+    padding-top: 15px;
+    padding-right: 17px;
+}
 .numlock {
 	float: left;
 	background: #434343;
-	height: 289px;
 }
 .numlock__button {
 	display: block;
@@ -78,7 +84,7 @@ input:focus, input:active {
 }
 .buttons__item {
 	width: 59px;
-	height: 58px;
+	height: 57.61px;
 	text-align: center;
 	line-height: 59px;
 	font-size: 17px;
@@ -95,13 +101,15 @@ input:focus, input:active {
 .rigthline {
 	background: #1de9b6;
     width: 100%;
-    height: 289px;
+    height: 288px;
+    text-align: center;
+    cursor: pointer;
 }
 .hiddenblock {
 	background: #1de9b6;
     width: 243px;
-    height: 289px;
-    display: block;
+    height: 288px;
+    display: none;
     position: absolute;
     bottom: 0;
     right: 0px;
@@ -110,12 +118,17 @@ input:focus, input:active {
 	display: block;
 	float: left;
 	width: 81px;
-	height: 58px;
+	height: 57.61px;
 	color: #006550;
 	text-align: center;
 	line-height: 58px;
 	cursor: pointer;
 }
-.hidden{
-	display: none;
+.active{
+	display: block;
+}
+.rigthline i {
+	color: white;
+	line-height: 288px;
+	font-size: 11px;
 }

@@ -6,87 +6,91 @@
 	<title>Калькулятор: Android 5.0</title> 
 	<link rel="shortcut icon" href="img/favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Sarabun:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
 	<link rel="stylesheet" href="css/simple.css">
 	<link href="css/main.css" rel="stylesheet"> 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="js/main.js" defer></script>
 </head>
 <body>
 	<div class="calculator">
 		<div class="screen">
-			<span class="screen__result">
-				0
+			<span class="screen__result" id="screen__result">
+				
+			</span>
+			<span id="screen__result_live">
+				
 			</span>
 		</div>
 		<div class="numlock">
 			<div>
-				<span class="numlock__button">
+				<span class="numlock__button" onclick="insert('7')">
 				7
 				</span>
-				<span class="numlock__button">
+				<span class="numlock__button" onclick="insert('8')">
 					8
 				</span>
-				<span class="numlock__button">
+				<span class="numlock__button" onclick="insert('9')">
 					9
 				</span>
 			</div>
 			<div>
-				<span class="numlock__button">
+				<span class="numlock__button" onclick="insert('4')">
 					4
 				</span>
-				<span class="numlock__button">
+				<span class="numlock__button" onclick="insert('5')">
 					5
 				</span>
-				<span class="numlock__button">
+				<span class="numlock__button" onclick="insert('6')">
 					6
 				</span>
 			</div>
 			<div>
-				<span class="numlock__button">
+				<span class="numlock__button" onclick="insert('1')">
 					1
 				</span>
-				<span class="numlock__button">
+				<span class="numlock__button" onclick="insert('2')">
 					2
 				</span>
-				<span class="numlock__button">
+				<span class="numlock__button" onclick="insert('3')">
 					3
 				</span>
 			</div>
 			<div>
-				<span class="numlock__button">
+				<span class="numlock__button" onclick="insert('.')">
 					.
 				</span>
-				<span class="numlock__button">
+				<span class="numlock__button" onclick="insert('0')">
 					0
 				</span>
-				<span class="numlock__button">
+				<span class="numlock__button" onclick="equal()">
 					=
 				</span>
 			</div>
 		</div>
 		<div class="buttons">
-			<div class="buttons__item">
+			<div class="buttons__item" onclick="clean()">
 				Del
 			</div>
-			<div class="buttons__item">
+			<div class="buttons__item" onclick="devideMultiply('/')">
 				÷
 			</div>
-			<div class="buttons__item">
+			<div class="buttons__item" onclick="devideMultiply('*')">
 				×
 			</div>
-			<div class="buttons__item">
+			<div class="buttons__item" onclick="insert('-')">
 				-
 			</div>
-			<div class="buttons__item">
+			<div class="buttons__item" onclick="insert('+')">
 				+
 			</div>
 		</div>
 		<div class="rigthline">
-			
+			<i class="fas fa-chevron-left"></i>
 		</div>
-		<div class="hiddenblock hidden">
+		<div class="hiddenblock">
 			<div>
 				<span class="hiddenblock__item upper">
 					Inv
