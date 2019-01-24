@@ -44,6 +44,7 @@ function count(){
 function equal(){
 	screen.innerHTML = screenlive.textContent;
 	screenlive.textContent = "";
+	toCount = "";
 }
 function clean(){
 	toCount = toCount.slice(0, -1);
