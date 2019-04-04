@@ -78,7 +78,9 @@ header {
 	margin-bottom: 80px;
 }
 .logo img {
-	width: 310px;
+	width: 182px;
+    margin-left: 66px;
+    margin-top: 28px;
 }
 h1 {
 	font-family: 'Kelly Slab', cursive;
