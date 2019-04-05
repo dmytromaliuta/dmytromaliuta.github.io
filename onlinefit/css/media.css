@@ -1,0 +1,265 @@
+
+@media screen and (max-width: 1208px) {
+	.its__item:first-child {
+    	margin-left: 0px;
+    	margin-right: 19px;
+	}
+	.its {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.its__item:nth-child(2) {
+    	margin-right: 19px;
+	}
+	.form {
+		width: 325px;
+		height: auto;
+		right: 15px;
+	}
+	.form form a{
+		margin-bottom: 20px;
+	}
+	h1 {
+		font-size: 39px;
+		margin-left: -135px;
+	}
+	.text a{
+		margin-left: 47px;
+	}
+	.firststep .title {
+		font-size: 45px;
+		transform: translate(-13%, 34%);
+	}
+	.firststep img {
+		margin-top: -23px;
+		margin-right: -49px;
+	}
+}
+
+
+@media screen and (max-width: 1000px) {
+	header {
+		width: 100%;
+	}
+	.form {
+		position: relative;
+		width: 100%;
+		padding-bottom: 20px;
+		right: 0px;
+		border-radius: 0px;
+	}
+	#firstscreen {
+		height: auto;
+		background: #dfe3e6 url("../img/bg.jpg") no-repeat -290px 0px / cover;
+		padding-bottom: 81px;
+	}
+	.its {
+		width: 100%;
+	}
+	.its__item {
+    	float: none;
+    	width: 320px;
+		margin: 0 auto !important;
+		margin-bottom: 30px !important;
+	}
+	#secondscreen .title:first-child {
+		margin-top: 111px;
+		margin-bottom: 27px;
+	}
+	.who {
+		width: 100%;
+	}
+	.who__item {
+		width: 100%;
+	}
+	.who__firstline .who__item,
+	.who__secondline .who__item,
+	.who__firstline .who__item:nth-child(2),
+	.who__secondline .who__item:nth-child(2)  {
+		float: none;
+	}
+	.who {
+		width: 100%;
+	}
+	.who__item {
+		width: 300px;
+		margin: 0 auto;
+	}
+	.who__form {
+		width: 100%;
+	}
+	.who__form form input {
+		margin-right: 0px;
+	}
+	.who__form form a {
+		transform: none !important;
+		font-size: 15px;
+		padding-bottom: 0px;
+	}
+	.line:nth-child(1),
+	.line:nth-child(2) {
+		float: none;
+	}
+	.secondwhy {
+		width: 100%;
+	}
+	.secondwhy__item {
+		margin: 0 auto;
+	}
+	.adv__btn {
+		transform: none !important;
+	}
+	.adv__items {
+		width: 320px;
+		margin: 0 auto;
+	}
+	.adv__item {
+		width: 100%;
+	}
+	.adv__item:nth-child(1),
+	.adv__item:nth-child(2),
+	.adv__item:nth-child(3),
+	.adv__item:nth-child(4) {
+    	float: none;
+	}
+	.firststep {
+		margin-bottom: 0px;
+	}
+	.firststep img {
+		transform: none;
+		position: relative;
+		margin: 0 auto;
+		display: block;
+		margin-top: 20px;
+	}
+	.firststep .title {
+		transform: none;
+	}
+	.step__blocks {
+		width: 767px;
+	}
+	.step__blocks span {
+		font-size: 24px;
+	}
+	.step__blocks:nth-child(2) .text{
+		transform: translate(38%,-4%);
+	}
+	.step__blocks:nth-child(3) .text{
+		transform: translate(34%,0)
+	}
+	.step__blocks:nth-child(4) .text{
+	    transform: translate(28%,-12%);
+	}
+	.step__blocks:nth-child(5) .text{
+		transform: translate(28%,-12%);
+	}
+	.head {
+		width: 100%;
+	}
+	.footer__form {
+		width: 100%;
+	}
+	.head .images {
+		float: none;
+		width: 293px;
+		display: block;
+		margin: 0 auto;
+	}
+	.head .tit{
+		float: none;
+		text-align: center;
+		margin-bottom: 21px;
+	}
+	.phone__tit {
+		float: none;
+		text-align: center;
+		font-size: 28px;
+	}
+	.phone__img {
+	    float: none;
+	    text-align: center;
+	    margin-top: 7px;
+	}
+	.phone {
+		width: 100%;
+	}
+	.pay__img {
+		width: 320px;
+		text-align: center;
+	}
+	.pay__img img:nth-child(1),
+	.pay__img img:nth-child(2) {
+		margin-bottom: 10px;
+	}
+	.footer__formtitle {
+		text-align: center;
+	}
+	.footer__form form{
+		text-align: center;
+	}
+	.footer__form form input{
+		margin-right: 0px;
+	}
+	.textarea{
+		width: 80%;
+		margin-left: -17px;
+	}
+}
+@media screen and (max-width: 830px) {
+	.links {
+		display: none;
+	}
+}
+@media screen and (max-width: 688px) {
+	#menu {
+		display: none;
+	}
+	.links {
+		display: block;
+	}
+}
+@media screen and (max-width: 320px) {
+	#menu {
+		display: none;
+	}
+	header {
+		width: 100%;
+	}
+	.form {
+		width: 100%;
+		position: relative;
+		height: auto;
+		padding-bottom: 24px;
+		border-radius: 0px;
+	}
+	.form__title {
+		font-size: 25px;
+		margin-left: 0px;
+		text-align: center;
+	}
+	.content {
+		width: 100%;
+	}
+	#firstscreen {
+		height: auto;
+	}
+	.its__item {
+		float: none;
+		margin: 0 auto !important;
+	}
+	.its__item:first-child {
+    	margin-left: 0px;
+    	margin-right: 0px;
+	}
+	.title {
+		font-size: 23px;
+		margin-top: 108px;
+	}
+	.slider div img {
+		width: 90%;
+	}
+	.pay img {
+	    width: 50px;
+	    height: 50px;
+	}
+}

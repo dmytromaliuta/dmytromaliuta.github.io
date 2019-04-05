@@ -525,12 +525,13 @@ h1 {
     margin-right: 0px
 }
 .textarea {
-	width: 883px;
+	width: 906px;
 	height: 100px;
     padding-top: 17px;
     padding-left: 17px;
     border-radius: 23px;
     margin-bottom: 10px;
+    box-sizing: border-box;
 }
 .footer__form form a{
 	margin-top: 7px;
