@@ -259,6 +259,16 @@
 	.step__blocks:nth-child(5) .text{
 		transform: none;
 	}
+	.content {
+		width: 100%;
+	}
+	#firstscreen {
+		background: #dfe3e6 url("../img/bg.jpg") no-repeat -410px 0px / cover;
+	}
+	h1 {
+    	text-align: left;
+    	margin-left: 46px;
+	}
 }
 @media screen and (max-width: 688px) {
 	#menu {
@@ -272,6 +282,46 @@
 	}
 	.slider img {
     	width: 90%;
+	}
+	h1 {
+	    font-size: 21px;
+	    margin-left: 22px;
+	    text-align: left;
+	}
+	.text a {
+    	margin-left: 22px;
+	}
+	.btn {
+	    padding: 7px 0px;
+	    width: 139px;
+	    font-size: 13px;
+	}
+	.why {
+    	margin-top: 34px;
+    	font-size: 15px;
+    	margin-left: 18px;
+	}
+	.logo {
+	    margin-bottom: 20px;
+	}
+	.logo img {
+    	width: 139px;
+    	margin-left: 10px;
+	    margin-top: 31px;
+	}
+	#firstscreen {
+		background: #dfe3e6 url("../img/bg.jpg") no-repeat -290px 0px / cover;
+	}
+	.form form a {
+	    margin-bottom: 20px;
+	    width: 239px;
+	    font-size: 19px;
+	}
+	.who__form form a {
+	    width: 209px;
+	}
+	.footer__form form a{
+		font-size: 20px;
 	}
 }
 @media screen and (max-width: 474px) {
@@ -303,6 +353,17 @@
 		width: 250px;
 		margin: 0 auto;
 		margin-top: 15px;
+	}
+	#firstscreen {
+	    background: #dfe3e6 url("../img/bg__mobile.jpg") no-repeat 0px 40px;
+	}
+	h1 {
+		font-size: 19px;
+	}
+}
+@media screen and (max-width: 364px) {
+	#firstscreen {
+	    background: #dfe3e6 url("../img/bg__mobile.jpg") no-repeat -55px 40px;
 	}
 }
 @media screen and (max-width: 320px) {
