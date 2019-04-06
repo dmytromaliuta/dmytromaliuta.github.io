@@ -704,3 +704,24 @@ a:hover
 	transform: scale(1.0, 1.0);
 	opacity: 1;
 }
+.qwe {
+	transform: scale(1.0, 1.0);
+	opacity: 1;
+}
+.slider .slick-prev{
+	background: url(../img/left.png) no-repeat center center !important;
+    left: 274px;
+    z-index: 10000;
+}
+.slider .slick-next{
+	background: url(../img/right.png) no-repeat center center;
+    right: 274px;
+    z-index: 10000;
+}
+.slick-prev, .slick-next {
+	height: 50px;
+}
+.slick-next:before,
+.slick-prev:before{
+	content: none;
+}
