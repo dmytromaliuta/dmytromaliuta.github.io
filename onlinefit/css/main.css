@@ -675,17 +675,28 @@ a:hover
 	transform: translate(-23%, -135%);
 }
 #hamb__menu li{
-	width: 100%;
+	width: 160px;
+	transform: translate(0px, -42px);
 	padding: 0;
 	line-height: 25px;
+	border: 2px solid #bcbcbc;
+	padding: 6px 11px;
 }
 #hamb__menu li a{
 	font-size: 17px;
+	color: black;
+}
+#hamb__menu li:hover{
+	background: #cbb8ea;
+	color: #26BD35;
+}
+#hamb__menu li a:hover{
+	color: #26BD35;
 }
 .hamb__img {
 	width: 89px;
 	position: absolute;
-	bottom: 0px;
+	top: 380px;
 	left: 50%;
 	transform: translate(-86%, 0%);
 }
