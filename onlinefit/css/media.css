@@ -322,6 +322,14 @@
 	}
 	.footer__form form a{
 		font-size: 20px;
+		width: 247px;
+	}
+	.links {
+		float: left;
+		margin-left: 24px;
+	}
+	#menuToggle {
+		display: block;
 	}
 }
 @media screen and (max-width: 474px) {
