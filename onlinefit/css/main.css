@@ -696,7 +696,7 @@ a:hover
 .hamb__img {
 	width: 89px;
 	position: absolute;
-	top: 380px;
+	top: 400px;
 	left: 50%;
 	transform: translate(-86%, 0%);
 }
