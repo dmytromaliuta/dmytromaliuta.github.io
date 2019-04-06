@@ -88,7 +88,7 @@
 						ФІТНЕС СУПРОВІД <br>
 						ОНЛАЙН
 					</h1>
-					<a href="#" class="btn">
+					<a href="#" class="btn" onclick="$('#exampleModal').arcticmodal();">
 						ЗАПИСАТИСЬ ЗАРАЗ
 					</a>
 					<ul class="why">
@@ -478,6 +478,45 @@
 			</div>
 		</div>
 	</footer>
+	<div style="display: none;">
+	    <div class="box-modal" id="exampleModal">
+	        <div class="box-modal_close arcticmodal-close">закрыть</div>
+	        <div class="modal__content clearfix">
+	        	<div class="modalleft">
+	        		<div class="modaltitle">
+	        			Заповніть форму і ми з Вами зв'яжемось
+	        		</div>
+	        		<form class="modal__form">
+	        			<input type="name" required placeholder="Ім’я"><br>
+						<input type="tel" required placeholder="Телефон"><br>
+						<input type="email" required placeholder="E-mail" class="emaillast"><br>
+						<a href="#" class="modal__submit">Відправити</a>
+	        		</form>
+	        		<img src="img/logo1.png" alt="logo" class="modal__img">
+	        	</div>
+	        	<div class="modalright">
+	        		<img src="img/imgonline-com-ua-Compressed-JPT2BzGLzcK01.jpg" class="modal__photo">
+	        		<ul class="links">
+						<li>
+							<a href="https://www.instagram.com/myroslavbondaruk/">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.facebook.com/myroslavbondaruk">
+								<i class="fab fa-facebook-square"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/channel/UCI4HFZuZtQqA7VV8O5DjMYg">
+								<i class="fab fa-youtube"></i>
+							</a>
+						</li>
+					</ul>
+	        	</div>
+	        </div>
+	    </div>
+	</div>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
 	<script type="text/javascript" src="js/slick.min.js"></script>

@@ -286,6 +286,48 @@
 	    right: 153px;
 	}
 }
+@media screen and (max-width: 727px) {
+	.arcticmodal-container_i2 {
+		padding: 0;
+	}
+	.modalleft {
+		float: none;
+		margin: 0 auto;
+	}
+	.modalright {
+		float: none;
+		width: 100%;
+	    padding-top: 20px;
+	}
+	.modalright img {
+		margin: 0 auto;
+		display: block;
+	}
+	.box-modal {
+    	width: 100vw;
+	}
+	.modal__form input {
+    	width: auto;
+	}
+	.emaillast {
+	    margin-bottom: 27px;
+	}
+	.modal__form a {
+	    width: 146px;
+	    display: inline;
+	    float: none;
+    	margin-right: 0px; 
+	    padding: 6px 46px;
+	    text-align: center;
+	}
+	.modal__img {
+		display: none;
+	}
+	.modalright .links {
+	    margin-top: -108px;
+    	margin-left: 13px;
+	}
+}
 @media screen and (max-width: 688px) {
 	#menu {
 		display: none;
@@ -395,6 +437,9 @@
 	}
 	.slider .slick-next{
 	    right: 24px;
+	}
+	.modal__form a {
+    	width: 80%;
 	}
 }
 @media screen and (max-width: 364px) {
