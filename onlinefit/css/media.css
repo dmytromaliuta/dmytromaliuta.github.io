@@ -63,7 +63,7 @@
 		margin-bottom: 30px !important;
 	}
 	#secondscreen .title:first-child {
-		margin-top: 111px;
+		margin-top: 46px;
 		margin-bottom: 27px;
 	}
 	.who {
@@ -169,6 +169,8 @@
 		float: none;
 		text-align: center;
 		margin-bottom: 21px;
+		margin-right: 0px;
+	    margin-left: 0px;
 	}
 	.phone__tit {
 		float: none;
@@ -204,10 +206,58 @@
 		width: 80%;
 		margin-left: -17px;
 	}
+	.footer__form form a{
+		transform: none  !important;
+	}
 }
 @media screen and (max-width: 830px) {
 	.links {
 		display: none;
+	}
+	.title {
+		font-size: 38px;
+	}
+	.adv__formtitle {
+    	text-align: center;
+	}
+	.adv__formtitle {
+    	margin-left: 0px;
+	}
+	.step__blocks {
+    	width: 300px;
+    	height: 403px;
+    	margin-bottom: 10px;
+	}
+	.step__blocks .text {
+	    position: relative;
+	    display: block;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		margin-top: 125px;
+		margin-top: 0px;
+	}
+	.step__blocks .number {
+	    position: relative;
+	    background: rgba(255,255,255,0.35);
+	    font-size: 40px;
+	}
+	.step__blocks .number {
+		display: block;
+	}
+	.step__blocks:nth-child(2) .text{
+		transform: none;
+		margin-top: 52px;
+	}
+	.step__blocks:nth-child(3) .text{
+		transform: none;
+		margin-top: 52px;
+	}
+	.step__blocks:nth-child(4) .text{
+	    transform: none;
+	}
+	.step__blocks:nth-child(5) .text{
+		transform: none;
 	}
 }
 @media screen and (max-width: 688px) {
@@ -216,6 +266,43 @@
 	}
 	.links {
 		display: block;
+	}
+	.adv__btn {
+    	width: 217px;
+	}
+	.slider img {
+    	width: 90%;
+	}
+}
+@media screen and (max-width: 474px) {
+	.footer__form form input {
+		width: 90%;
+	}
+	.footer__form form {
+	    text-align: none;
+	    padding: 0 20px;
+	}
+	.footer__form {
+	    padding-left: 0px;
+	}
+	.textarea {
+	    width: 100%;
+	    margin-left: 0px;
+	}
+	.firststep .title {
+		margin-top: 17px;
+	}
+	.its__item {
+		width: 240px;
+	}
+	.its__item img {
+		width: 200px;
+	}
+	.secondwhy__item:after,
+	.its__content:after {
+		width: 250px;
+		margin: 0 auto;
+		margin-top: 15px;
 	}
 }
 @media screen and (max-width: 320px) {
@@ -261,5 +348,8 @@
 	.pay img {
 	    width: 50px;
 	    height: 50px;
+	}
+	.form__title {
+	    font-size: 23px;
 	}
 }
