@@ -54,6 +54,36 @@ header {
 .green {
 	color: #26BD35;
 }
+.display {
+	display: block !important;
+}
+#showblock div {
+	font-weight: bold;
+    color: #5b5b64;
+}
+.menuhidden {
+	position: absolute;
+    width: 200px;
+    height: 63px;
+    top: 50px;
+    right: 307px;
+    background: #f2f1f2;
+    box-shadow: 0px 0px 20px 0.5px;
+    display: none;
+}
+.menuhidden li{
+	margin: 0;
+	padding: 0;
+	line-height: 22px;
+	float: none;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 5px;
+}
+.menuhidden li a{
+	color: #5f5b5b;
+    font-weight: bold;
+}
 #menu {
     line-height: 60px;
 }
@@ -562,20 +592,6 @@ a:hover
     user-select: none;
     display: none;
 }
-
-#menuToggle input {
-    display: block;
-    width: 40px;
-    height: 32px;
-    position: absolute;
-    top: -7px;
-    left: -5px;
-    cursor: pointer;
-    opacity: 0; /* hide this */
-    z-index: 2; /* and place it over the hamburger */
-    -webkit-touch-callout: none;
-}
-
 /*
  * Just a quick hamburger
  */
@@ -594,39 +610,10 @@ a:hover
 	          opacity 0.55s ease;
 }
 
-#menuToggle span:first-child {
-	transform-origin: 0% 0%;
-}
-
-#menuToggle span:nth-last-child(2) {
-	transform-origin: 0% 100%;
-}
-
 /* 
  * Transform all the slices of hamburger
  * into a crossmark.
- */
-#menuToggle input:checked ~ span {
-	opacity: 1;
-	transform: rotate(45deg) translate(-2px, -1px);
-	background: #232323;
-}
 
-/*
- * But let's hide the middle one.
- */
-#menuToggle input:checked ~ span:nth-last-child(3) {
-	opacity: 0;
-	transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-/*
- * Ohyeah and the last one should go the other direction
- */
-#menuToggle input:checked ~ span:nth-last-child(2) {
-	opacity: 1;
-	transform: rotate(-45deg) translate(0, -1px);
-}
 
 /*
  * Make this absolute positioned
@@ -638,7 +625,7 @@ a:hover
 	margin: -100px 0 0 0;
 	padding: 50px;
 	padding-top: 125px;
-	right: -100px;
+	right: -227px;
 	background: #ededed;
 	list-style-type: none;
 	-webkit-font-smoothing: antialiased;
@@ -646,7 +633,15 @@ a:hover
 	transform-origin: 0% 0%;
 	transform: translate(100%, 0);
 	transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-	height: 100vh
+	height: 100vh;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease;
+}
+
+.menu__open {
+	right: 227px !important;
 }
 
 #hamb__menu li {
@@ -682,14 +677,6 @@ a:hover
 	top: 400px;
 	left: 50%;
 	transform: translate(-86%, 0%);
-}
-#menuToggle input:checked ~ ul {
-	transform: scale(1.0, 1.0);
-	opacity: 1;
-}
-.qwe {
-	transform: scale(1.0, 1.0);
-	opacity: 1;
 }
 .slider .slick-prev{
 	background: url(../img/left.png) no-repeat center center !important;

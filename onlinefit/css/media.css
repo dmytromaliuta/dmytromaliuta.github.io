@@ -209,6 +209,10 @@
 	.footer__form form a{
 		transform: none  !important;
 	}
+	.menuhidden {
+		top: 58px;
+   		right: 37px
+	}
 }
 @media screen and (max-width: 953px) {
 	.slider .slick-prev{
