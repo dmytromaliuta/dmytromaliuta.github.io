@@ -91,20 +91,11 @@
 	.who__form form input {
 		margin-right: 0px;
 	}
-	.formid3 input:last-child {
-		transform: none !important;;
-		margin: 0 auto !important;
-	}
-	.formid4 input:last-child {
-		transform: none !important;;
-		margin: 0 auto !important;
-	}
-	.formid5 input:last-child {
-	    transform: none !important;;
-		margin: 0 auto !important;
-	}
+	.formid3 input:last-child,
+	.formid4 input:last-child,
+	.formid5 input:last-child,
 	.formid6 input:last-child {
-		transform: none !important;;
+		transform: none !important;
 		margin: 0 auto !important;
 	}
 	.who__form form {
@@ -346,6 +337,13 @@
 	}
 }
 @media screen and (max-width: 688px) {
+	.formid3 input:last-child,
+	.formid4 input:last-child,
+	.formid5 input:last-child,
+	.formid6 input:last-child {
+		padding: 10px 0px;
+    	width: 240px;
+	}
 	#menu {
 		display: none;
 	}
