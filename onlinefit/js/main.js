@@ -42,3 +42,25 @@ for(var i = 0; i < menuLi.lenght; i++){
 		ul.classList.remove("menu__open");
 	}
 }
+
+
+$(document).ready(function() {
+
+	//E-mail Ajax Send
+	$(".modal__form, .firstform, .formid3, .formid4, .formid4, .formid5").submit(function() { //Change
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "mail.php", //Change
+			data: th.serialize()
+		}).done(function() {
+			alert("ads");
+			setTimeout(function() {
+				// Done Functions
+				th.trigger("reset");
+			}, 1000);
+		});
+		return false;
+	});
+
+});

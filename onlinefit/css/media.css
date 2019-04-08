@@ -91,10 +91,24 @@
 	.who__form form input {
 		margin-right: 0px;
 	}
-	.who__form form a {
-		transform: none !important;
-		font-size: 15px;
-		padding-bottom: 0px;
+	.formid3 input:last-child {
+		transform: none !important;;
+		margin: 0 auto !important;
+	}
+	.formid4 input:last-child {
+		transform: none !important;;
+		margin: 0 auto !important;
+	}
+	.formid5 input:last-child {
+	    transform: none !important;;
+		margin: 0 auto !important;
+	}
+	.formid6 input:last-child {
+		transform: none !important;;
+		margin: 0 auto !important;
+	}
+	.who__form form {
+		padding-left: 0px;
 	}
 	.line:nth-child(1),
 	.line:nth-child(2) {

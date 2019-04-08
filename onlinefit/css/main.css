@@ -128,6 +128,7 @@ h1 {
     margin: 0 auto;
     font-size: 23px;
     background: #26BD35;
+    cursor: pointer;
 }
 .why {
     margin-top: 56px;
@@ -159,6 +160,15 @@ h1 {
 }
 .form form {
 	text-align: center;
+}
+.form form input:last-child{
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    padding: 0px 0px;
+}
+.form form input:last-child:hover{
+    color: black;
+    transition: color 0.3s ease;
 }
 .form form input{
     width: 217px;
@@ -267,6 +277,7 @@ h1 {
 }
 .who__form form {
 	text-align: center;
+	padding-left: 65px;
 }
 .who__form form input{
     width: 217px;
@@ -274,7 +285,7 @@ h1 {
     padding-left: 18px;
     border-radius: 10px;
     margin-bottom: 20px;
-    margin-right: 75px;
+    margin-right: 60px;
 }
 .who__form form input:nth-child(3){
     margin-right: 0px;
@@ -282,10 +293,34 @@ h1 {
 .who__formtitle {
 	margin-bottom: 39px;
 }
-.who__form form a{
+.formid3 input:last-child {
+	transform: translate(264%, 0%);
+}
+.formid4 input:last-child {
+	transform: translate(204%, 0%) !important;
+}
+.formid5 input:last-child {
+    transform: translate(256%, 0%) !important;
+}
+.formid6 input:nth-child(6) {
+    margin-right: 0px;
+}
+.formid6 input:last-child {
+	border: none;
+	padding: 0;
+	font-family: inherit;
+	transform: translate(40%, 0%) !important;
+}
+.who__form form input:last-child {
+	border: none;
     margin-top: 7px;
-    padding: 8px 14px;
-    transform: translate(133.6%, 0%);
+    font-family: 'Oswald', sans-serif;
+    padding: 0px 14px;
+    margin: 0px;
+    width: auto;
+}
+.formid4 form input:nth-child(4) {
+    width: 278px;
 }
 .who__form {
 	padding-bottom: 30px;
@@ -699,7 +734,7 @@ a:hover
     height: 264px;
     text-align: center;
 }
-.modal__form a {
+.modal__form input:last-child {
     float: right;
     margin-right: 61px;
     margin-top: 17px;
@@ -708,8 +743,10 @@ a:hover
     font-size: 17px;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    padding: 10px 18px;
+    padding: 4px 18px;
     border-radius: 14px;
+    border: none;
+    cursor: pointer;
 }
 .modal__form input:first-child{
     margin-top: 38px;

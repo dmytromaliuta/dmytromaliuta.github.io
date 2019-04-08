@@ -91,7 +91,7 @@
 						ФІТНЕС СУПРОВІД <br>
 						ОНЛАЙН
 					</h1>
-					<a href="#" class="btn" onclick="$('#exampleModal').arcticmodal();">
+					<a class="btn" onclick="$('#exampleModal').arcticmodal();">
 						ЗАПИСАТИСЬ ЗАРАЗ
 					</a>
 					<ul class="why">
@@ -116,11 +116,17 @@
 				<div class="form__title">
 					Отримай графічний посібник з організації правильного харчування <span>БЕЗКОШТОВНО!!!</span>
 				</div>
-				<form action="#">
-					<input type="name" required placeholder="Ім’я"><br>
-					<input type="tel" required placeholder="Телефон"><br>
-					<input type="email" required placeholder="E-mail"><br>
-					<a href="#" class="btn takehelper">ХОЧУ ПОСІБНИК</a>
+				<form class="firstform">
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="Onlinefit.com.ua">
+					<input type="hidden" name="admin_email" value="dmytromaliuta@gmail.com">
+					<input type="hidden" name="form_subject" value="Форма з посібником">
+					<!-- END Hidden Required Fields -->
+
+					<input type="name" name="І'мя" required placeholder="Ім’я"><br>
+					<input type="tel" name="Телефон" required placeholder="Телефон"><br>
+					<input type="email" name="Емейл" required placeholder="E-mail"><br>
+					<input type="submit" class="btn takehelper" value="ХОЧУ ПОСІБНИК">
 				</form>
 			</div>
 		</div>
@@ -235,11 +241,17 @@
 			<div class="who__formtitle form__title">
 				Отримай  консультацію <span>БЕЗКОШТОВНО!!!</span>
 			</div>
-			<form action="#">
-				<input type="name" required placeholder="Ім’я">
-				<input type="tel" required placeholder="Телефон">
-				<input type="email" required placeholder="E-mail"><br>
-				<a href="#" class="btn takehelper">ОТРИМАТИ КОНСУЛЬТАЦІЮ</a>
+			<form class="formid3">
+				<!-- Hidden Required Fields -->
+				<input type="hidden" name="project_name" value="Onlinefit.com.ua">
+				<input type="hidden" name="admin_email" value="dmytromaliuta@gmail.com">
+				<input type="hidden" name="form_subject" value="Форма безкоштовної консультації">
+				<!-- END Hidden Required Fields -->
+
+				<input type="name" name="І'мя" required placeholder="Ім’я">
+				<input type="tel" name="Телефон" required placeholder="Телефон">
+				<input type="email" name="Емейл" required placeholder="E-mail"><br>
+				<input type="submit" class="btn takehelper" value="ОТРИМАТИ КОНСУЛЬТАЦІЮ">
 			</form>
 		</div>
 	</section>
@@ -329,11 +341,17 @@
 					Отримай <span>БЕЗКОШТОВНО</span> план першого <br>
 					тренувального заняття онлайн !!!
 				</div>
-				<form action="#">
-					<input type="name" required placeholder="Ім’я">
-					<input type="tel" required placeholder="Телефон">
-					<input type="email" required placeholder="E-mail"><br>
-					<a href="#" class="btn takehelper adv__btn">ОТРИМАТИ ТРЕНУВАЛЬНИЙ ПЛАН</a>
+				<form class="formid4">
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="Onlinefit.com.ua">
+					<input type="hidden" name="admin_email" value="dmytromaliuta@gmail.com">
+					<input type="hidden" name="form_subject" value="Форма план першого тренувального заняття онлайн">
+					<!-- END Hidden Required Fields -->
+
+        			<input type="name" name="І'мя" required placeholder="Ім’я">
+					<input type="tel" name="Телефон" required placeholder="Телефон">
+					<input type="email" name="Емейл" required placeholder="E-mail"><br>
+					<input type="submit" class="btn takehelper adv__btn" value="ОТРИМАТИ ТРЕНУВАЛЬНИЙ ПЛАН">
 				</form>
 			</div>
 			<div class="adv__content" id="adv">
@@ -425,11 +443,17 @@
 					всього <span>за 800грн\місяць</span> та досягни власних <br>
 					фітнес вершин!!!
 				</div>
-				<form action="#">
-					<input type="name" required placeholder="Ім’я">
-					<input type="tel" required placeholder="Телефон">
-					<input type="email" required placeholder="E-mail"><br>
-					<a href="#" class="btn takehelper adv__btn">ЗАПИСАТИСЬ ПРЯМО ЗАРАЗ</a>
+				<form class="formid5">
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="Onlinefit.com.ua">
+					<input type="hidden" name="admin_email" value="dmytromaliuta@gmail.com">
+					<input type="hidden" name="form_subject" value="Форма Отримай професійний фітнес супровід онлайн">
+					<!-- END Hidden Required Fields -->
+
+					<input type="name" name="І'мя" required placeholder="Ім’я">
+					<input type="tel" name="Телефон" required placeholder="Телефон">
+					<input type="email" name="Емейл" required placeholder="E-mail"><br>
+					<input type="submit" class="btn takehelper adv__btn" value="ЗАПИСАТИСЬ ПРЯМО ЗАРАЗ">
 				</form>
 			</div>
 		</div>
@@ -471,29 +495,42 @@
 				<div class="footer__formtitle">
 					У вас залишились запитання???  Напишіть нам!!!
 				</div>
-				<form action="#">
-					<input type="name" required placeholder="Ім’я">
-					<input type="tel" required placeholder="Телефон">
-					<input type="email" required placeholder="E-mail"><br>
-					<textarea type="textarea" required placeholder="Напишіть текст повідомлення" class="textarea"></textarea><br>
-					<a href="#" class="btn takehelper adv__btn">ВІДПРАВИТИ</a>
+				<form class="formid6">
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="Onlinefit.com.ua">
+					<input type="hidden" name="admin_email" value="dmytromaliuta@gmail.com">
+					<input type="hidden" name="form_subject" value="Форма футера(останній екран)">
+					<!-- END Hidden Required Fields -->
+
+
+					<input type="name" name="І'мя" required placeholder="Ім’я">
+					<input type="tel" name="Телефон" required placeholder="Телефон">
+					<input type="email"  name="Емейл" required placeholder="E-mail"><br>
+					<textarea type="textarea" name="Повідомлення" required placeholder="Напишіть текст повідомлення" class="textarea"></textarea><br>
+					<input type="submit" class="btn takehelper adv__btn" value="ВІДПРАВИТИ">
 				</form>
 			</div>
 		</div>
 	</footer>
 	<div style="display: none;">
 	    <div class="box-modal" id="exampleModal">
-	        <div class="box-modal_close arcticmodal-close">закрыть</div>
+	        <div class="box-modal_close arcticmodal-close">закрити</div>
 	        <div class="modal__content clearfix">
 	        	<div class="modalleft">
 	        		<div class="modaltitle">
 	        			Заповніть форму і ми з Вами зв'яжемось
 	        		</div>
 	        		<form class="modal__form">
-	        			<input type="name" required placeholder="Ім’я"><br>
-						<input type="tel" required placeholder="Телефон"><br>
-						<input type="email" required placeholder="E-mail" class="emaillast"><br>
-						<a href="#" class="modal__submit">Відправити</a>
+	        			<!-- Hidden Required Fields -->
+						<input type="hidden" name="project_name" value="Onlinefit.com.ua">
+						<input type="hidden" name="admin_email" value="dmytromaliuta@gmail.com">
+						<input type="hidden" name="form_subject" value="Форма першого екрану(Записатись зараз)">
+						<!-- END Hidden Required Fields -->
+
+	        			<input type="name" name="І'мя" required placeholder="Ім’я"><br>
+						<input type="tel" name="Телефон" required placeholder="Телефон"><br>
+						<input type="email" name="Емейл" required placeholder="E-mail" class="emaillast"><br>
+						<input type="submit" class="modal__submit" value="Відправити">
 	        		</form>
 	        		<img src="img/logo1.png" alt="logo" class="modal__img">
 	        	</div>
