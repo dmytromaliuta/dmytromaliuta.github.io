@@ -317,6 +317,11 @@
 	.modal__form input {
     	width: auto;
 	}
+	.modal__form input:last-child{
+    	float: none !important;
+    	margin-right: 0;
+   		width: 181px;
+	}
 	.emaillast {
 	    margin-bottom: 27px;
 	}
@@ -337,12 +342,8 @@
 	}
 }
 @media screen and (max-width: 688px) {
-	.formid3 input:last-child,
-	.formid4 input:last-child,
-	.formid5 input:last-child,
-	.formid6 input:last-child {
-		padding: 10px 0px;
-    	width: 240px;
+	.takehelper {
+    	width: 236px !important;
 	}
 	#menu {
 		display: none;
@@ -452,9 +453,6 @@
 	}
 	.slider .slick-next{
 	    right: 24px;
-	}
-	.modal__form a {
-    	width: 80%;
 	}
 }
 @media screen and (max-width: 364px) {
