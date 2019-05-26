@@ -28,7 +28,7 @@ ul{
 	margin: 0 auto;
 }
 header{
-	background: url('../img/bg.png') no-repeat center bottom / cover;
+	background: url('../img/bg.jpg') no-repeat center bottom / cover;
 	height: 790px;
 }
 .logo{
@@ -253,4 +253,7 @@ footer h6{
 	font-family: 'MuseoSansCyrl-300',serif;
 	margin-top: 124px;
 	margin-bottom: 111px;
+}
+.m0{
+	margin: 0px;
 }
