@@ -92,6 +92,8 @@ header{
 #mainscreen{
 	background: url('../img/bg1.png') no-repeat top center /cover;
 	height: 600px;
+	width: 1346px;
+	margin: 0 auto;
 }
 .mainscreen__title{
 	background: url('../img/sky.png') no-repeat center 35px;
@@ -218,6 +220,8 @@ header{
 }
 #waveone{
 	background: url('../img/wave.png') repeat-x;
+	width: 1346px;
+	margin: 0 auto;
 }
 .waveone div {
 	font-size: 30px;
@@ -290,6 +294,8 @@ header{
 	background: #f1fff1 url('../img/bg2.png') repeat-x 0px 340px; 
 	padding-top: 1px;
 	padding-bottom: 80px;
+	width: 1346px;
+	margin: 0 auto;
 }
 .objects ul li{
 	list-style: none;
@@ -337,6 +343,8 @@ header{
 #wave{
 	background: #dcefdc url('../img/wave2.png') repeat-x center top;
 	height: 115px;
+	width: 1346px;
+	margin: 0 auto;
 }
 .wave{
 	padding-top: 20px;
@@ -394,6 +402,8 @@ header{
 }
 #complectation{
 	background: #369b33 url('../img/bg3.png') repeat-x bottom;
+	width: 1346px;
+	margin: 0 auto;
 }
 .complectation__p{
 	font-size: 19px;
@@ -434,6 +444,8 @@ header{
 }
 #documents{
 	background: #f3eeee url('../img/bg4.png') no-repeat center top/cover;
+	width: 1346px;
+	margin: 0 auto;
 }
 .documents .title h3 {
 	margin-top: 0px;
