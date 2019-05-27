@@ -23,6 +23,9 @@ a, a:hover, a:active, a:focus, input, input:focus, input:active {
 	text-decoration: none;
 	outline: none;
 }
+.hidden {
+	overflow: hidden;
+}
 .clearfix::after {
     content: "";
     clear: both;

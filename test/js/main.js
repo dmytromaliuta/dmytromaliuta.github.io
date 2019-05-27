@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$("#hamb__menu, #menu, .menuhidden").on("click","a", function (event) {
 	    event.preventDefault();
 	    var id  = $(this).attr('href'),
-	        top = $(id).offset().top - 100;
+	        top = $(id).offset().top;
 	    $('body,html').animate({scrollTop: top}, 1500);
 	});
 	$('.slider').slick({
@@ -30,6 +30,7 @@ $(document).ready(function(){
 	var ul = document.getElementById("hamb__menu");
 	hambBtn.onclick = function(){
 		ul.classList.toggle("menu__open");
+		document.body.classList.toggle("hidden");
 	}
 	var menuLi = document.querySelectorAll("#hamb__menu li");
 	for(var i = 0; i < menuLi.lenght; i++){
@@ -37,4 +38,5 @@ $(document).ready(function(){
 			ul.classList.remove("menu__open");
 		}
 	}
+
 });
