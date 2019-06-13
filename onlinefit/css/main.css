@@ -972,3 +972,10 @@ a:hover
 .training__content .testing__sex {
 	margin-top: 53px;
 }
+#eating__result {
+	text-align: center;
+    color: #4ebd35;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 52px;
+}

@@ -108,8 +108,8 @@
 					Ваша стать:
 				</div>
 				<div class="testing__sex clearfix">
-					<img src="img/014.png" alt="woman" class="woman">
-					<img src="img/015.png" alt="man" class="man">
+					<img src="img/014.png" alt="woman" class="woman" data-calc="w" clicable>
+					<img src="img/015.png" alt="man" class="man" data-calc="m" clicable>
 				</div>
 				<div class="steps">
 					Крок 1 з 6
@@ -126,7 +126,7 @@
 							<input type="text" name="age" value="18" class="age__btn">
 							<i class="fas fa-plus" data-type="age__btn"></i>
 						</div>
-						<a href="#" onclick="return false" type="submit" name="submit" class="agesubmit">Далі</a>
+						<a href="#" onclick="return false" type="submit" name="submit" class="agesubmit" clicable data-label="age__btn">Далі</a>
 					</form>
 				</div>
 				<div class="steps">
@@ -144,7 +144,7 @@
 							<input type="text" name="age" value="170" class="age__btn growth__btn">
 							<i class="fas fa-plus" data-type="growth__btn"></i>
 						</div>
-						<a href="#" onclick="return false" type="submit" name="submit" class="agesubmit">Далі</a>
+						<a href="#" onclick="return false" type="submit" name="submit" class="agesubmit" clicable data-label="growth__btn">Далі</a>
 					</form>
 				</div>
 				<div class="steps">
@@ -162,7 +162,7 @@
 							<input type="text" name="age" value="60" class="age__btn weight__btn">
 							<i class="fas fa-plus" data-type="weight__btn"></i>
 						</div>
-						<a href="#" onclick="return false" type="submit" name="submit" class="agesubmit">Далі</a>
+						<a href="#" onclick="return false" type="submit" name="submit" class="agesubmit" clicable data-label="weight__btn">Далі</a>
 					</form>
 				</div>
 				<div class="steps">
@@ -174,27 +174,27 @@
 					Рівень рухової активності:
 				</div>
 				<div class="testing__activities">
-					<div class="activities__item">
-						<img src="img/013.png">
-						<div>
+					<div class="activities__item" clicable>
+						<img src="img/013.png" data-calc="1.2">
+						<div data-calc="1.2">
 							Зовсім не займаюсь
 						</div>
 					</div>
-					<div class="activities__item">
-						<img src="img/012.png">
-						<div>
+					<div class="activities__item" clicable>
+						<img src="img/012.png" data-calc="1.4">
+						<div data-calc="1.4">
 							Інколи займаюсь
 						</div>
 					</div>
-					<div class="activities__item">
-						<img src="img/011.png">
-						<div>
+					<div class="activities__item" clicable>
+						<img src="img/011.png" data-calc="1.7">
+						<div data-calc="1.7">
 							Регулярно займаюсь
 						</div>
 					</div>
-					<div class="activities__item">
-						<img src="img/010.png">
-						<div>
+					<div class="activities__item" clicable>
+						<img src="img/010.png" data-calc="1.9">
+						<div data-calc="1.9">
 							Фанат
 						</div>
 					</div>
@@ -215,6 +215,14 @@
 				</form>
 				<div class="steps">
 					Крок 6 з 6
+				</div>
+			</div>
+			<div class="testing__content">
+				<div class="sex__title">
+					Ваша добова норма:
+				</div>
+				<div id="eating__result">
+					
 				</div>
 			</div>
 		</div>
