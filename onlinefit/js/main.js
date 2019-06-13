@@ -1,11 +1,11 @@
 $(document).ready(function(){
 	// scroll
-	$("#hamb__menu, #menu, .menuhidden").on("click","a", function (event) {
-	    event.preventDefault();
-	    var id  = $(this).attr('href'),
-	        top = $(id).offset().top;
-	    $('body,html').animate({scrollTop: top}, 1500);
-	});
+	// $("#hamb__menu, #menu, .menuhidden").on("click","a", function (event) {
+	//     event.preventDefault();
+	//     var id  = $(this).attr('href'),
+	//         top = $(id).offset().top;
+	//     $('body,html').animate({scrollTop: top}, 1500);
+	// });
 	$('.slider').slick({
 	dots: false,
 		infinite: true,
