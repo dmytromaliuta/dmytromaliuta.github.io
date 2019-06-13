@@ -15,6 +15,12 @@
 	.about__img {
 	    margin-left: 52px;
 	}
+	.eating__logo .logo {
+	    margin-right: 50px;
+	}
+	.eating__content {
+	    margin-left: 50px;
+	}
 }
 @media screen and (max-width: 1000px) {
 	header {
@@ -176,6 +182,25 @@
 	}
 	.who__form form input:last-child {
 	    padding: 13px 8px;
+	}
+	.testing__content {
+    	width: 300px;
+	}
+	.testing__sex img {
+    	width: 120px;
+	}
+	.programs__item {
+	    width: 287px;
+	    margin: 0 auto;
+	    margin-bottom: 33px;
+	}
+	.eatingprograms__content {
+	    padding: 20px 0px;
+	    display: block; 
+	}
+	.programs__item:first-child{
+		margin: 0 auto;
+		margin-bottom: 33px;
 	}
 }
 @media screen and (max-width: 830px) {

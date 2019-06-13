@@ -14,7 +14,7 @@ ul, li {
 	margin: 0px;
 }
 * {
-	-moz-transition: all 0.3s ease;
+	-moz-transition: all 7.3s ease;
 	-webkit-transition-property: all;
 	-webkit-transition-duration: 0.3s;
 	-webkit-transition-timing-function: ease;
@@ -709,4 +709,266 @@ a:hover
 	color: #26BD35;
 	font-family: 'Lobster', cursive;
 	font-size: 19px;
+}
+
+/* EATING */
+
+.eating__content {
+	margin-left: 150px;
+}
+.eating__logo  .logo img{
+	margin-top: 0px;
+}
+.eating__logo  .logo{
+	margin-right: 150px;
+}
+#eating {
+	height: 405px;
+	background: url(../img/bg__eating.jpg) no-repeat center top / cover;
+}
+.testing__title {
+	font-family: 'Amatic SC', cursive;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	font-size: 47px;
+	padding: 30px 10px;
+}
+.sex__title {
+	font-family: 'Amatic SC', cursive;
+	font-size: 47px;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+.testing__content {
+	width: 420px;
+	height: 337px;
+	margin: 0 auto;
+	display: none;
+	position: relative;
+}
+.testing__sex img{
+	width: 150px;
+	cursor: pointer;
+	margin-top: 26px;
+}
+.testing__sex .woman {
+	float: left;
+}
+.testing__sex .man {
+	float: right;
+}
+.programs__item:first-child {
+	margin-left: 0px;
+}
+.programs__item {
+	padding-top: 100px;
+    width: 300px;
+    padding-bottom: 30px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.5);
+    margin-left: 30px;
+}
+.programs__item:nth-child(1){
+	background: url(../img/p1.jpg) no-repeat top center;
+}
+.programs__item:nth-child(2){
+	background: url(../img/p2.jpg) no-repeat top center;
+}
+.programs__item:nth-child(3){
+	background: url(../img/p3.jpg) no-repeat top center;
+}
+.programs__item ul{
+	padding-left: 8px;
+	font-size: 19px;
+    text-shadow: 1px 1px 4px #a8a3a3, 0 0 1px #363232;
+}
+.programs__item ul li:first-child{
+	display: block;
+	text-align: center;
+	padding: 0;
+	padding: 20px 0;
+}
+.programs__item_title {
+	margin-bottom: 82px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.programs__price {
+	color: #26BD35;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-size: 21px;
+	padding: 15px 0px;
+}
+.programs__btn {
+	width: 247px;
+    padding: 5px 0px;
+    background: #26BD35;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+.eatingprograms__content {
+	padding: 20px 0px;
+	display: flex;
+	justify-content: center;
+}
+.age__btn {
+	width: 122px;
+    text-align: center;
+    padding: 13px 0px;
+    font-weight: bold;
+    border-radius: 42px;
+    border: 2px solid black;
+}
+.agebtnblock {
+	position: relative;
+	display: inline;
+	width: 127px;
+}
+.agebtnblock i {
+	position: absolute;
+	cursor: pointer;
+}
+.fa-minus {
+	top: 50%;
+    left: 14px;
+    transform: translate(0, -50%);
+}
+.fa-plus {
+	top: 50%;
+    right: 14px;
+    transform: translate(0, -50%);
+}
+.agesubmit {
+	background: none;
+    border: 2px solid black;
+    border-radius: 42px;
+    padding: 13px 19px;
+    font-weight: bold;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.testing__age {
+	margin: 0 auto;
+    width: 220px;
+}
+.steps {
+	position: absolute;
+	bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.testing__activities {
+	display: flex;
+	margin-top: 28px;
+}
+.activities__item{
+    width: 125px;
+    margin-left: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+.activities__item:first-child {
+	margin-left: 0px;
+}
+.activities__item img{
+	width: 60px;
+    margin: 0 auto;
+}
+#calories input {
+	display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#calories .inp {
+    width: 232px;
+    padding: 10px 0px;
+    padding-left: 10px;
+    border-radius: 40px;
+    border: 2px solid black;
+}
+.calories__btn {
+	border: 2px solid black;
+    background: none;
+    border-radius: 40px;
+    padding: 10px 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.active {
+	display: block !important; 
+}
+.agesubmit {
+	color: black;
+}
+.testing__content form.withbtn {
+	margin-top: 89px;
+}
+
+
+/*training*/
+
+
+#training {
+	height: 405px;
+	background: url(../img/bg__training.jpg) no-repeat center center / cover;
+}
+.programs__item_training:nth-child(1){
+	background: url(../img/p4.jpg) no-repeat top center;
+}
+.programs__item_training:nth-child(2){
+	background: url(../img/p5.jpg) no-repeat top center;
+}
+.programs__item_training:nth-child(3){
+	background: url(../img/p6.jpg) no-repeat top center;
+}
+
+.training__content {
+	height: 400px;
+}
+.training__content .testing__activities {
+    margin-top: 60px;
+}
+.training__content form.withbtn {
+    margin-top: 127px;
+}
+.training__content #calories {
+    padding-top: 24px;
+}
+.training__submit {
+	margin: 0;
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%, 26px);
+}
+.training__active {
+	border: 3px solid #00dc4d;
+    box-sizing: border-box;
+    border-radius: 27px;
+}
+.activities__item_bg {
+	width: 100px;
+	padding-top: 67px;
+}
+.activities__item_bg:nth-child(1){
+	background: url(../img/000.png) no-repeat top center;
+}
+.activities__item_bg:nth-child(2){
+	background: url(../img/001.png) no-repeat top center;
+}
+.activities__item_bg:nth-child(3){
+	background: url(../img/002.png) no-repeat top center;
+}
+.activities__item_bg:nth-child(4){
+	background: url(../img/003.png) no-repeat top center;
+}
+.training__content .testing__sex {
+	margin-top: 53px;
 }
