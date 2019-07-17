@@ -3,16 +3,24 @@ var screen = document.getElementById('screen__result');
 var screenlive = document.getElementById('screen__result_live');
 
 function insert(symbol){
-	if (toCount[toCount.length - 1] == '/' && (symbol == "/" || symbol == "*" || symbol == "+")) return 5;
-	if (toCount[toCount.length - 1] == '*' && (symbol == "/" || symbol == "*" || symbol == "+")) return 5;
-	if (toCount[toCount.length - 1] == '+' && (symbol == "/" || symbol == "*" || symbol == "+")) return 5;
-	if (toCount[toCount.length - 1] == '-' && (symbol == "/" || symbol == "*" || symbol == "+" || symbol == "-")) return 5;
+	if (toCount.length === 12) {
+		screen.style.fontSize = '27px';
+		screenlive.style.fontSize = '17px';
+	}
+	if (toCount.length === 18) {
+		screenlive.innerHTML = 'Переповнено';
+		return;
+	}
+	if (toCount[toCount.length - 1] == '/' && (symbol == "/" || symbol == "*" || symbol == "+")) return;
+	if (toCount[toCount.length - 1] == '*' && (symbol == "/" || symbol == "*" || symbol == "+")) return;
+	if (toCount[toCount.length - 1] == '+' && (symbol == "/" || symbol == "*" || symbol == "+")) return;
+	if (toCount[toCount.length - 1] == '-' && (symbol == "/" || symbol == "*" || symbol == "+" || symbol == "-")) return;
 	switch (symbol) {
 		case '/':
 			toCount += '/';
 			if (toCount[0] === '/') {
 				toCount = "";
-				return 1;
+				return;
 			}
 			screen.textContent += '÷';
 			break
@@ -20,7 +28,7 @@ function insert(symbol){
 			toCount += '*';
 			if (toCount[0] === '*') {
 				toCount = "";
-				return 1;
+				return;
 			}
 			screen.textContent += '×';
 			break
@@ -32,7 +40,7 @@ function insert(symbol){
 			toCount += '+';
 			if (toCount[0] === '+') {
 				toCount = "";
-				return 1;
+				return;
 			}
 			screen.textContent += '+';
 			break
@@ -48,11 +56,11 @@ function insert(symbol){
 function count(){
 	if (eval(toCount) == 'Infinity' || eval(toCount) == '-Infinity') {
 		screenlive.textContent = 'На 0 ділити не можна';
-		return 2;
+		return;
 	}
 	if (eval(toCount) == NaN) {
 		screenlive.textContent = 'Помилка';
-		return 3;
+		return;
 	}
 	screenlive.innerHTML = eval(toCount);
 }
@@ -61,14 +69,7 @@ function equal(){
 	screenlive.textContent = "";
 }
 function clean(){
-	toCount = toCount.slice(0, -1);
-	if (screenlive.textContent == "") {
-		toCount = "";
-	}
-	screen.textContent = screen.textContent.slice(0, -1);
-	count();
-	if (screenlive.textContent == "undefined") {
-		screen.innerHTML = "";
-		screenlive.innerHTML = "";
-	}
+	toCount = "";
+	screen.innerHTML = "";
+	screenlive.innerHTML = "";
 }
