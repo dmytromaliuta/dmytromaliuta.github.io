@@ -1,0 +1,164 @@
+
+/*
+================================================================================
+|                                     FOOTER                                   |
+================================================================================
+*/
+.menu {
+	background: #fbfbfb;
+	width: 270px;
+	margin-right: 15px;	
+	float: left;
+}
+.menu__itemtitle {
+	line-height: 38px;
+	height: 38px;
+	font-weight: 'Arial', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #343434;
+	cursor: pointer;
+	border: 1px solid #ebebeb;
+	padding-left: 20px;
+	box-sizing: content-box;
+	position: relative;
+}
+.menu__itemtitle i{
+	float: right;	
+	line-height: 38px;
+	color: #c3c3c3;
+	margin-right: 16px;
+}
+.menu__contentitem {
+	background: #fbfbfb;
+	height: 0px;
+	transition-property: height, padding, border;
+	transition-duration: 0.5s;
+	overflow: hidden;
+	border: 1px solid rgba(235, 235, 235, 0);
+	border-top: none;
+	border-bottom: none;
+	width: 100%;
+}
+.menu__materialc_content.open {
+    overflow-y: auto;
+    height: 180px !important;
+    padding: 10px 0px;
+}
+.menu__contentitem.open {
+	height: 100px;
+	border: 1px solid #ebebeb;
+	border-top: none;
+}
+.menu__materiallist {
+	font-size: 13px;
+	line-height: 26px;
+    margin-top: 2px;
+    margin-left: 29px;
+    list-style: none;
+}
+.menu__materiallist {
+	cursor: pointer;
+}
+.menu__materiallist_select {
+	color: #39a6be;
+	font-weight: bold;
+}
+.menu__colorinput {
+	width: 160px;
+    background: #f3f3f3;
+    padding: 4px 0px;
+    font-size: 13px;
+    border: 1px solid #e1e1e1;
+    border-radius: 2px;
+    padding-left: 9px;
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    transform: translate(0px, -50%);
+    box-shadow: inset 0px 0px 4px #e4e4e4;
+}
+
+::-webkit-input-placeholder{
+	color:#464646;
+}
+::-moz-placeholder {
+	color:#464646;
+}
+:-moz-placeholder {
+	color:#464646;
+}
+:-ms-input-placeholder {
+	color:#464646;
+}
+/*Scrollbar customize*/
+.mCS-my-theme.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	 background-color: #93deff;
+}
+.mCS-my-theme.mCSB_scrollTools .mCSB_draggerRail {
+	 background-color: white;
+	 opacity: 0;
+} 
+
+/*Scrollbar customize END*/
+
+/*SELECT customize*/
+
+.jq-selectbox {
+    width: 160px;
+    float: right;
+    margin-top: 6px;
+    margin-right: 8px;
+}
+.jq-selectbox__select {
+	height: 27px;
+	padding: 4px 0px 4px 8px;
+	font-weight: 400;
+	border: 1px solid #e1e1e1;
+	box-shadow: inset 0px 0px 4px #e4e4e4;
+	color: #464646;
+}
+.jq-selectbox__trigger-arrow {
+	background: url(./img/icons/down.png) no-repeat center center;
+}
+.jq-selectbox__dropdown {
+	top: 27px;
+	bottom: 28px;
+	border: 1px solid #ebebeb
+}
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+    background-color: #39a6be;
+    color: #FFF;
+}
+.jq-selectbox__trigger-arrow {
+	display: none;
+}
+.menu__size {
+	i {
+		position: absolute;
+		right: 0px;
+	    top: 1px;
+	    z-index: 999999;
+	}
+} 
+/*SELECT customize END*/
+@media screen and (max-width: 1200px) {
+	
+}
+
+@media screen and (min-width: 992px){
+	
+}
+
+@media screen and (max-width: 991px) {
+	
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media screen and (max-width: 767px) {
+	
+}

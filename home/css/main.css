@@ -254,6 +254,6 @@ footer h6{
 	margin-top: 124px;
 	margin-bottom: 111px;
 }
-.m0{
+.works__photo .works__photoitem:nth-child(3n){
 	margin: 0px;
 }

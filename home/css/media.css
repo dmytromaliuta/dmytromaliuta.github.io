@@ -60,6 +60,9 @@
 	.skills__item{
 		width: 200px;
 	}
+	.works__photo .works__photoitem:nth-child(3n){
+		margin: 0 auto;
+	}
 }
 
 @media screen and (max-width: 340px) {
