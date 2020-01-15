@@ -34,8 +34,8 @@
 		margin: 0 auto;
 		margin-bottom: 30px;
 	}
-	.works__photoitem:last-child{
-		margin: 0 auto;
+	.works__photo .works__photoitem:nth-child(3n) {
+		margin: 0 auto !important;
 	}
 }
 

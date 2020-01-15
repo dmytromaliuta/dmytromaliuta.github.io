@@ -76,6 +76,7 @@ header{
 	font-size: 49px;
 	margin-bottom: 24px;
 	line-height: 56px;
+	text-shadow: 0 0 25px rgba(0,0,0,0.7);
 }
 .firstscreen__title h3{
 	font-family: 'MuseoSansCyrl-100', serif;

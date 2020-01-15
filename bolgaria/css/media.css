@@ -1,0 +1,312 @@
+@media screen and (max-width: 1200px){
+	/*Главная*/
+	.header__fasle{
+		display: none;
+	}
+	.menu__item{
+		padding-top: 23px;
+	}
+	.menu__item li{
+		margin-top: 8px;
+	}
+	.telephones{
+		font-size: 12px;
+		margin-top: 6px;
+	}
+	.adv__item{
+		min-height: 450px;
+	}
+	footer p{
+	margin-left: 20px;
+	}
+	/*Контакты*/
+	.contactform__form{
+		width: 88%;
+	}
+	.contactform__blocktel{
+		padding: 80px 0px 0px 89px;
+	}
+	/*Недвижимость и переезд*/
+	.move__block{
+		width: 100%;
+	}
+	/*О компании*/
+	.about__block{
+		width: 97%;
+	}
+	/*.about__admin{
+		min-height: 590px;
+	}*/
+}
+@media screen and (max-width: 991px){
+	/*Главная*/
+	.menu{
+		display: none;
+	}
+	.prev{
+		top: -15px;
+	}
+	.adv__item{
+		margin: 20px 0px 0px 0px;
+	}
+	.servises__block{
+		width: 88%;
+	}
+	.servises__circles_first{
+		left: 37%;
+	}
+	.servises__circles_third{
+		left: 29%;
+	}
+	footer p{
+		white-space: nowrap;
+	}
+	/*Контакты*/
+	#contactform{
+		background: white;
+	}
+	.contactform__block{
+		margin-top: 0;
+		box-shadow: none;
+		width: 100%;
+	}
+	.contactform__blocktel{
+		padding: 80px 0px 0px 0px;
+	}
+	.contactform__form{
+		width: 100%;
+	}
+	.contactform__title{
+		margin-top: 54px;
+	}
+	.reviews__block{
+	    width: 77%;
+		margin-left: 97px;
+	}
+	.girl{
+	    margin-left: 73px;
+   		margin-top: 47px;
+	}
+	.reviews__slider .slick-arrow{
+		top: 113px;
+	}
+	.reviews__block span{
+		white-space: pre;
+	}
+	/*Недвижимость и переезд*/
+	#move{
+		background: white;
+	}
+	.move__block{
+		box-shadow: none;
+		margin-top: 0;
+		background: white;
+	}
+	.move__title{
+		margin-top: 40px;
+	}
+	.move__item_house{
+		margin-left: 0px;
+	}
+	.move__item_texthouse{
+		margin-right: 0px;
+		margin-top: 85px;
+		margin-left: 62px;
+		color: #666666;
+	}
+	.move__item_textpackage{
+		margin-left: 0px;
+		color: #666666;
+	}
+	.move__item_package{
+		margin-left: 30px;
+		margin-top: 0;
+	}
+	/*О компании*/
+	.about__block{
+		margin-top: 0px;
+		box-shadow: none;
+		width: 100%;
+	}
+	#about{
+		padding-bottom: 0;
+		background: #fff;
+	}
+	.about__admin_second,
+	.about__admin_first{
+		float: none;
+	}
+	.about__admin {
+	    display: block;
+	    margin: 0 auto;
+	    margin-bottom: 0px;
+	    margin-bottom: 20px;
+    }
+    .about__proline{
+		float: right;
+	}
+	.about__textblock{
+		margin-left: 0;
+		white-space: nowrap;
+	}
+}
+@media screen and (max-width: 767px){
+	h1{
+		font-size: 47px;
+		letter-spacing: 0px;
+	}
+	h1 div{
+		letter-spacing: 3px;
+		font-size: 33px;
+	}
+	.titl{
+		font-size: 28px;
+		white-space: pre;
+	}
+	h2{
+		font-size: 30px;
+	}
+	.hamburger{
+		float: right;
+	}
+	.left,
+	.right{
+		display: none;
+	}
+	.girl{
+		margin: 0 auto;
+		z-index: 1000;
+		position: relative;
+	}
+	.reviews__block{
+		width: 89%;
+		margin: 0 auto;
+		padding: 36px;
+	    padding-top: 83px;
+   		margin-top: -59px;
+   		margin-bottom: 53px;
+	}
+	.reviews__block p{
+		text-align: center;
+	}
+	.reviews__block span{
+		display: inherit;
+		text-align: center;
+		margin-bottom: 7px;
+	}
+	.reviews__block span:nth-child(1){
+		margin-right: 0px;
+	}
+	.reviews__block span:nth-child(2){
+		margin-right: 0px;
+	}
+	.footer__text{
+		font-size: 9px;
+		margin: 0;
+		padding-top: 22px;
+		float: right;
+	}
+	.servises__circles_first{
+		left: 50%;
+   		margin-left: -94px;
+	}
+	.servises__circles_second{
+
+	}
+	.servises__circles_third{
+		left: 50%;
+		margin-left: -120px;
+	}
+	.servises__title{
+		margin-bottom: 140px;
+	}
+	.contact__head{
+		font-size: 43px;
+		letter-spacing: 2px;
+	}
+	#contactform{
+		padding-bottom: 27px;
+	}
+	.contactform__title{
+		margin-bottom: 7px;
+		margin-bottom: 50px;
+	}
+	.contactform__item{
+		margin: 0 auto;
+		margin-bottom: 66px;
+		text-align: center;
+		padding-left: 0px;
+	}
+	.contactform__item:nth-child(1){
+		background: url(../img/phone.png) no-repeat center top;
+		padding-top: 45px;
+	}
+	.contactform__item:nth-child(2){
+		background: url(../img/email.png) no-repeat center top;
+		padding-top: 45px;
+	}
+	.contactform__item:nth-child(3){
+		background: url(../img/skype.png) no-repeat center top;
+		padding-top: 45px;
+	}
+	.contactform__form h3 div{
+		font-size: 17px;
+	}
+	/*Недвижимость и переезд*/
+	#move{
+		background: white;
+	}
+	.move__block{
+		
+	}
+	.move__title{
+		
+	}
+	.move__item{
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	.move__item_house{
+		/*width: 100%;*/
+		margin: 0 auto;
+		display: block;
+		margin-top: 30px;
+	}
+	.move__item_texthouse{
+		margin-top: 35px;
+	}
+	.move__item_textpackage{
+		margin-top: 30px;
+	}
+	.move__item_package{
+		/*width: 100%;*/
+		margin-top: 20px;
+		margin: 0 auto;
+		display: block;
+	}
+	.move__head{
+		font-size: 27px;
+		margin-top: 149px;
+	}
+	/*О компании*/
+	.about__proline,
+	.about__prolineright{
+		float: none;
+	}
+	.about__textline{
+		text-align: center;
+	}
+	.about__textblock{
+		margin-bottom: 20px;
+	}
+	.about__title {
+   		padding: 20px 10px;
+	}
+}
+@media screen and (max-width: 399px){
+	.move__item_house,
+	.move__item_package{
+		width: 100%;
+	}
+}
