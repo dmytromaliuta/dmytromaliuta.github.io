@@ -1,0 +1,381 @@
+/*GENERAL*/
+body {
+	font-family: 'Avenir Next', sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #f6f4fc; 
+}
+ul, li {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+a, a:hover, a:active, a:focus,
+button, input, button:hover, button:active, button:focus,
+input:focus, input:active {
+	text-decoration: none;
+	outline: none;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*MENU*/
+#menu {
+	padding: 22px 0px;
+	font-weight: 400;
+}
+
+#menu div *{
+	float: left;
+	color: #16395b;
+}
+.logo {
+	margin-left: -95px;
+}
+.searchblock {
+	position: relative;
+}
+.searchblock img {
+	position: absolute;
+    right: 15px;
+    top: 7px;
+}
+.search {
+	font-size: 16px;
+    width: 400px;
+    padding: 7px 10px;
+    color: #8486a8;
+    background: #f6f4fc;
+    border: 1px solid #8486a8;
+    border-radius: 6px;
+    margin-left: 190px;
+    transform: translate(0px, -4px);
+}
+.search::placeholder {
+  	color: #8486a8;
+}
+.language {
+	padding: 5px 0px;
+}
+.language i {
+	padding: 8px 0px;
+    margin: 0px 3px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.navigation {
+	float: right !important;
+    margin-right: -100px;
+}
+.navigation__item {
+	padding: 5px 10px;
+}
+.navigation__item:hover {
+	padding: 5px 10px;
+	background: white;
+	cursor: pointer;
+	border-radius: 3px;
+	box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+.login {
+	cursor: pointer;
+}
+.login img {
+	margin-right: 11px;
+}
+.app {
+	cursor: pointer;
+}
+.app div {
+	text-transform: uppercase;
+    margin-right: 10px;
+}
+/*HEADER*/
+.title {
+	font-weight: 700;
+    font-size: 22px;
+    padding-top: 4px;
+}
+.info {
+    color: white;
+    padding-left: 246px;
+    margin-top: -81px;
+    margin-bottom: 40px;
+}
+.logo__circle {
+	position: absolute;
+    left: 80px;
+}
+.rate ul li {
+    float: left;
+    margin-top: 52px;
+    color: black;
+    margin-right: 9px;
+}
+.rate ul li:nth-child(3){
+	color: #06cf9a;
+}
+.rate ul li img {
+	margin-top: -5px;
+}
+.links ul li {
+	float: left;
+	margin-top: 30px;
+}
+.links ul li a {
+	color: black;
+    border: 1px solid #c0d3fe;
+    background: white;
+    padding: 5px 7px;
+    font-size: 16px;
+    border-radius: 42px;
+    margin-right: 9px;
+}
+.bg {
+	padding-top: 10px;
+}
+.bg img {
+	width: 100%;
+}
+.adress {
+	width: 268px;
+    height: 180px;
+    position: absolute;
+    bottom: 0;
+    background: white;
+    right: 33px;
+    border-radius: 29px 29px 0 0;
+    padding: 28px 0px 0px 13px;
+}
+.adress div {
+	font-size: 14px;
+}
+.adress ul li {
+	font-weight: normal;
+	font-size: 12px;
+}
+.adress i {
+	position: absolute;
+    right: 58px;
+    top: -13px;
+    background: white;
+    border: 1px solid #c0d3fe;
+    border-radius: 48px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 7px 0px;
+    color: #06cf9a;
+}
+/*DOCTORS*/
+.doctors__item {
+	background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    min-height: 310px;
+    width: 255px;
+}
+.about {
+    margin-bottom: 14px;
+}
+.about ul {
+	float: left;
+}
+.about ul li{
+	margin-bottom: 4px;
+}
+.about ul li div:nth-child(1){
+	color: #0943bf;
+}
+.about ul li div:nth-child(2){
+	color: #838383;
+    margin-top: -5px;
+}
+.photo {
+	float: right;
+    width: 115px;
+    text-align: center;
+    position: relative;
+}
+.photo img {
+	margin: 0 auto;
+    display: block;
+    margin-bottom: 9px;
+}
+.icon {
+	float: left;
+    width: 35px;
+    height: 35px;
+    color: #0943bf;
+    background: #e4edfe;
+    text-align: center;
+    padding: 9px 0px;
+    border-radius: 20px;
+    margin-right: 7px;
+}
+.doctors__ul {
+	float: right;
+}
+.circle {
+	background: #00d7a9;
+    width: 10px;
+    height: 10px;
+    border-radius: 88px;
+    position: absolute;
+    top: 77px;
+    left: 24px;
+}
+.doctors__title {
+	font-size: 24px;
+	color: #16395b;
+	font-weight: 700;
+	float: left;
+}
+.doctors__all {
+	font-size: 14px;
+	color: #10d9af;
+	font-weight: 700;
+	float: right;
+	text-transform: uppercase;
+	cursor: pointer;
+    line-height: 41px;
+}
+.non-active {
+	background: #d2e1f5;
+}
+.spec {
+	color: #134ac2;
+    font-size: 13px;
+    margin-top: 6px;
+}
+.name {
+	font-size: 19px;
+    font-weight: 700;
+}
+.geo {
+    font-size: 13px;
+    margin-top: 10px;
+}
+.geo i {
+	color: #134ac2;
+}
+#doctors {
+    padding-bottom: 60px;
+}
+.slick-prev
+{
+    left: 400px;
+    z-index: 1;
+}
+.slick-next
+{
+    right: 400px;
+    z-index: 1;
+}
+.slick-dots li {
+    cursor: pointer;
+    transition: top 1s ease-out 0.5s;
+}
+.slick-dots li button{
+    width: 3px;
+    height: 3px;
+    background: #00d7a9;
+    border-radius: 10px;
+}
+.slick-active button{
+    width: 29px !important;
+}
+
+/*FOOTER*/
+.footer__title {
+	font-size: 18px;
+    color: #16395b;
+    margin-bottom: 38px;	
+}
+.footer__menu ul li {
+	font-size: 14px;
+	margin-bottom: 6px;
+}
+.email {
+	color: #00ffc8;
+	font-size: 14px;
+}
+.footer__icons a i{
+	width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 9px 0px;
+    font-size: 22px;
+    color: black;
+}
+.footer__icons a {
+	margin-right: 10px;
+}
+.footer__icons a i:hover {
+	background: #00ffc8;
+}
+.footer__icons {
+	margin-top: 15px;
+}
+.footer__input {
+	position: relative;
+}
+.footer__input i {
+	position: absolute;
+    right: 0px;
+    top: 15px;
+    color: #06cf9a;
+    cursor: pointer;
+}
+.footer__input input {
+	background: none;
+    border: none;
+    border-bottom: 1px solid #06cf9a;
+    color: #16395b;
+    width: 100%;
+    padding: 8px 4px;
+}
+.footer__input input::placeholder {
+	color: #16395b;
+}
+.footer__language select {
+	border: 1px solid #16395b;
+    background: none;
+    width: 198px;
+    padding: 10px 8px;
+    border-radius: 6px;
+    float: right;
+    color: #16395b;
+}
+.footer__logo {
+	margin-top: 15px;
+}
+.footer__logo span {
+    font-size: 12px;
+    color: #16395b;
+}
+.footer__links ul li {
+	float: left;
+	margin-right: 10px;
+}
+.footer__links ul li a {
+	color: #16395b;
+	text-decoration: underline;
+	font-size: 12px;
+} 
+.footer__links {
+	float: right;
+	margin-top: 15px;
+}
+footer {
+    padding-bottom: 17px;
+}
