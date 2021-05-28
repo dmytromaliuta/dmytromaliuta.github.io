@@ -37,6 +37,9 @@
 	.works__photo .works__photoitem:nth-child(3n) {
 		margin: 0 auto !important;
 	}
+	.works__photoitem:last-child {
+		margin-right: auto;
+	}
 }
 
 /* Мобильные Mobile 768px-0px */
