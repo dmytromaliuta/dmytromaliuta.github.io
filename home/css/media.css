@@ -27,6 +27,7 @@
 		float: none;
 		margin: 0 auto;
 		margin-bottom: 30px;
+		width: 180px;
 	}
 	.works__photoitem{
 		float: none;
@@ -61,7 +62,7 @@
 		float: none;
 	}
 	.skills__item{
-		width: 200px;
+		width: 180px;
 	}
 	.works__photo .works__photoitem:nth-child(3n){
 		margin: 0 auto;
